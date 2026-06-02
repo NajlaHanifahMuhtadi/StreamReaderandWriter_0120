@@ -31,4 +31,6 @@ int main ()
         //menulis dan memasukkan nilai dari baris ke dalam file
         outfile << baris << endl;
     }
+    //menutup file apabila telah selesai ditulis
+    outfile.close();
 }
